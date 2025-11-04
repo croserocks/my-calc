@@ -1,0 +1,63 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+}
+
+.container {
+    background: black;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.calcWindow {
+    background: green;
+    height: 120px;
+    width: 520px;
+    margin: 15px;
+    display: flex;
+    font-size: 100px;
+    justify-content: flex-end;
+}
+
+.keyPad {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 520px;
+}
+
+ul {
+    display: flex;
+    border: 1px dotted greenyellow; /* Need to figure out why this is not centering. */
+}
+
+li {
+    list-style-type: none;
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    background: darkgrey;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto 10px;
+}
+
+.numZero,
+.clearAll {
+    width: 200px;
+}
+

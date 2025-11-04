@@ -2,33 +2,43 @@
 <html title="my-calc">
     <head lang="en">
         <meta charset="utf-8">
-        <link rel="styesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
         <script src="scripts.js"></script> <!-- Need to add the run first module command here -->
     </head>
     <body>
         <div class="container">
             <div class="card">
-                <div class="calcWindow"></div> <!-- This is the input/output screen -->
-                <ul class="numberPad"> <!-- Number entry pad, descending style -->
-                    <li class="num">7</li>
-                    <li class="num">8</li>
-                    <li class="num">9</li>
-                    <li class="num">4</li>
-                    <li class="num">5</li>
-                    <li class="num">6</li>
-                    <li class="num">1</li>
-                    <li class="num">2</li>
-                    <li class="num">3</li>
-                    <li class="num">0</li>
-                    <li class="num">.</li>
-                </ul>
-                <div class="operatorsCard">
-                    <ul class="operators"> <!-- Operands -->
-                        <li class="ops">/</li>
-                        <li class="ops">*</li>
-                        <li class="ops">+</li>
-                        <li class="ops">-</li>
+                <div class="calcWindow">0</div> <!-- This is the input/output screen -->
+                <div class="keyPad">
+                    <ul class="topRow"> 
+                        <li class="clearAll">C</li> <!-- Set to double width-->
+                        <li class="opsPct">%</li>
+                        <li class="opDivide">/</li>
                     </ul>
+                    <ul class="secondRow"> 
+                        <li class="numSeven">7</li>
+                        <li class="numEight">8</li>
+                        <li class="numNine">9</li>
+                        <li class="opsMultiply">*</li>
+                    </ul>
+                    <ul class="thirdRow"> 
+                        <li class="numFour">4</li>
+                        <li class="numFive">5</li>
+                        <li class="numSix">6</li>
+                        <li class="opsSubtract">-</li>
+                    </ul>
+                    <ul class="fourthRow"> 
+                        <li class="numOne">1</li>
+                        <li class="numTwo">2</li>
+                        <li class="numThree">3</li>
+                        <li class="opsAdd">+</li>
+                    </ul>
+                    <ul class="bottomRow"> 
+                        <li class="numZero">0</li>
+                        <li class="opsDecimal">.</li>
+                        <li class="opsEqual">=</li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>           
