@@ -6,8 +6,8 @@ body {
 
 .container {
     background: #384F68;
-    width: 600px;
-    margin: 60px auto;
+    width: 450px;
+    margin: 10px auto 20px;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
@@ -18,15 +18,15 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-items: center;
 }
 
 .calcWindow {
-    background: #7A9AB6;
+    background: #000;
     height: 120px;
-    width: 510px;
-    margin: 40px 20px 20px;
+    width: 400px;
+    margin: 20px;
     border-radius: 10px;
     border: 3px solid #A9BED0;
 }
@@ -41,19 +41,21 @@ body {
 .keyPad {
     display: flex;
     flex-direction: column;
-    width: 520px;
+    width: 410px;
+    margin-bottom: 15px;
 }
 
 ul {
     display: flex;
     padding: 0; /* Address default padding interferes with list items causing them to shift right */
+    margin: 2px;
 }
 
 li {
     list-style-type: none;
     font-size: 60px;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background: #597D9E;
     border: 3px solid #A9BED0;
     border-radius: 25px;
@@ -66,6 +68,6 @@ li {
 
 .numZero,
 .clearAll {
-    width: 200px;
+    width: 150px;
 }
 
