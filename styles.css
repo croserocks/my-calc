@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 30px;
+    /* box-shadow: [inset] <offset-x> <offset-y> <blur-radius> <spread-radius> <color>; */
+    box-shadow: 8px 8px 10px 5px black;
 }
 
 .card {
@@ -59,7 +61,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: auto;    
+    margin: auto;
 }
 
 .numZero,
