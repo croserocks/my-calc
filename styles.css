@@ -1,18 +1,19 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: azure;
+    color: #EAEEF4;
+    background-color: #1E2833;
 }
 
 .container {
-    background: black;
+    background: #384F68;
     width: 600px;
-    margin: auto;
+    margin: 60px auto;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
 }
 
 .card {
-    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -20,40 +21,45 @@ body {
 }
 
 .calcWindow {
-    background: green;
+    background: #7A9AB6;
     height: 120px;
-    width: 520px;
-    margin: 15px;
-    display: flex;
+    width: 510px;
+    margin: 40px 20px 20px;
+    border-radius: 10px;
+    border: 3px solid #A9BED0;
+}
+
+.inputOutput {
     font-size: 100px;
+    display: flex;
     justify-content: flex-end;
+    padding-right: 10px;
 }
 
 .keyPad {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     width: 520px;
 }
 
 ul {
     display: flex;
-    border: 1px dotted greenyellow; /* Need to figure out why this is not centering. */
+    padding: 0; /* Address default padding interferes with list items causing them to shift right */
 }
 
 li {
     list-style-type: none;
-    font-size: 50px;
+    font-size: 60px;
     width: 70px;
     height: 70px;
-    background: darkgrey;
-    border: 2px solid black;
+    background: #597D9E;
+    border: 3px solid #A9BED0;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: auto 10px;
+    margin: auto;    
 }
 
 .numZero,
